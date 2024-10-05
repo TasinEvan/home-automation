@@ -3,19 +3,19 @@ import { NavLink } from 'react-router-dom';
 
 const Navbar = () => {
     const links = <>
-    <div className='font-bold'>
-    <NavLink className={'mx-2'} to={'/'}>Home</NavLink>
+    <div className='font-bold playfair text-blue-900'>
+    <NavLink className={'mx-2'} to={'/'}>Dashboard</NavLink>
     
-
+    <NavLink className={'mx-2'} to={'/relaycontrol'}>Switches</NavLink>
      <NavLink className={'mx-2'} to={'/Schedule'}>Schedule</NavLink>
-     <NavLink className={'mx-2'} to={'/Facilities'}>Facilities</NavLink>
+     
      <NavLink to={'/Users'}>Users</NavLink>
      
     </div>
     </>
     return (
         <div>
-                 <div className="navbar bg-slate-100">
+                 <div className="navbar bg-blue-100 rounded-xl">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -38,7 +38,7 @@ const Navbar = () => {
        {links}
       </ul>
     </div>
-    <a className="btn btn-ghost text-xl">HomeSync</a>
+    <NavLink className={'btn btn-ghost text-blue-900 text-xl playfair'} to={'/'}>HomeSync</NavLink>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1">
@@ -46,7 +46,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-  <NavLink className={'btn'} to={'/Sign'}>Sign Up</NavLink>
+  <NavLink className={'btn btn-primary font-bold playfair text-white'} to={'/Sign'}>Sign Up</NavLink>
   </div>
         </div>
         </div>

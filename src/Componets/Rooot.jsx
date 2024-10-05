@@ -7,7 +7,7 @@ const Rooot = () => {
     return (
         <div >
         <Navbar></Navbar>,
-        <div className='w-[1450px] mx-auto' >
+        <div className='w-full lg:w-[1450px] mx-auto' >
         <Outlet></Outlet>,
         </div>
         

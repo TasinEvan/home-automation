@@ -12,6 +12,7 @@ import Login from "./Login";
 import Facilities from "./Componets/Facilities";
 import Schedule from "./Componets/Schedule";
 import Users from "./Users";
+import RelayControl from "./Componets/RelayControl";
 
 
 
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
       {
         path : "/",
       element : <Dashboard></Dashboard>,
+    
       },
       {
         path : "/login",
@@ -42,6 +44,11 @@ const router = createBrowserRouter([
         path : "Users",
         element : <Users></Users>
       },
+      {
+        path : "/relaycontrol",
+        element : <RelayControl></RelayControl>
+      },
+
     
     
     
