@@ -45,15 +45,16 @@ const RelayControl = () => {
   return (
 <div className=" w-full mx-auto  ">
   
-        <img className='w-full rounded-xl'  src="https://i.imghippo.com/files/9Xakt1727799565.jpg" alt="" />
+<img className='w-full rounded-xl'  src="https://i.imghippo.com/files/9Xakt1727799565.jpg" alt="" />
     
-        <div className='justify-center items center text-center w-full  flex-col   mx-auto my-7 '>
-                  
-                  <h2 className="text-2xl sm:text-3xl lg:text-4xl text-blue-900 font-bold ubuntu mb-3">Control at Your Fingertips</h2>
-                  <p className="text-sm sm:text-base lg:text-lg text-blue-900 ubuntu ">Effortlessly manage your home's lighting and appliances with a single tap.</p>
-                  </div>
+    <div className='justify-center items  center text-center w-full  flex-col   mx-auto my-7 '>
+              
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl text-blue-900 font-bold ubuntu mb-3">Control at Your Fingertips</h2>
+              <p className="text-sm sm:text-base lg:text-lg text-blue-900 ubuntu ">Effortlessly manage your home's lighting and appliances with a single tap.</p>
+              </div>
 
-        <div className=" p-7 mx-auto min-h-screen gap-7 justify-center items-center flex w-full bg-zinc-50  rounded-xl ">
+
+        <div className=" p-7 mx-auto h-[550px] gap-7 justify-center items-center flex w-full bg-zinc-50  rounded-xl ">
         <div>
  
       <span className="text-blue-700 text-2xl font-bold">

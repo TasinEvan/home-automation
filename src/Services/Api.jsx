@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const BASE_URL = 'http://192.168.188.238'; // Ensure the URL includes the protocol
+const BASE_URL = 'http://192.168.20.238'; // Ensure the URL includes the protocol
 
 // Create axios instance with a base URL and optional timeout
 const api = axios.create({ 

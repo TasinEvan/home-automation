@@ -141,16 +141,26 @@ const Banner = () => {
 			<img src="https://i.imghippo.com/files/1EcDb1728072196.jpg" alt="" className=" rounded-full object-contain h-72 sm:h-80 lg:h-96 xl:h-112 2xl:h-128" />
 		</div>
 		<div className="flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
-			<h1 className="text-5xl font-bold leading-none playfair sm:text-6xl"> Schedule <br /> Your device 
+			<h1 className="text-5xl  text-indigo-900 font-bold leading-none playfair sm:text-6xl"> Schedule <br /> Your device 
 				
 			</h1>
-			<p className="mt-6 mb-8 text-lg sm:mb-12">Easily schedule your device to perform tasks automatically 
-				<br  className="hidden md:inline lg:hidden" />at specified dates and times, ensuring seamless automation and timely execution.
+			<p className="mt-6 mb-8 text-ba text-lg text-gray-400 sm:mb-12 playfair">Easily schedule your device to perform tasks automatically 
+				<br  className="hidden md:inline lg:hidden playfair" />at specified dates and times, ensuring seamless automation and timely execution.
 			</p>
 			<div className="flex flex-col space-y-4 sm:items-center sm:justify-center sm:flex-row sm:space-y-0 sm:space-x-4 lg:justify-start">
 				<NavLink rel="noopener noreferrer" href="#" to={"/Schedule"} className="px-8 py-3 text-lg font-semibold rounded bg-indigo-700 dark:text-gray-50">Get Started</NavLink>
 			
 			</div>
+		</div>
+	</div>
+</section>
+<section className="py-6 dark:bg-blue-50 rounded-full">
+	<div className="container mx-auto flex flex-col items-center justify-center p-4  rounded-xlspace-y-8 md:p-10 md:px-24 xl:px-48">
+		<h1 className="text-5xl text-indigo-900 font-bold leading-none text-center ">Sign up now</h1>
+		<p className="text-sm lg:text-lg font-medium text-center playfair my-4">Join now and take control of your scheduling with our powerful automation tools. Sign up today and experience the convenience of managing your tasks effortlessly, anytime, anywhere!</p>
+		<div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-8">
+			<NavLink  to={"/login"} className="px-8 py-3 text-lg font-semibold rounded dark:bg-indigo-700 dark:text-gray-50">Get started</NavLink>
+			<button className="px-8 py-3 text-lg font-normal border rounded dark:bg-gray-800 dark:text-gray-50 dark:border-gray-700">Learn more</button>
 		</div>
 	</div>
 </section>

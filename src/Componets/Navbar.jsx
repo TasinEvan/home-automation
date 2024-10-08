@@ -46,7 +46,7 @@ const Navbar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-  <NavLink className={'btn btn-primary font-bold playfair text-white'} to={'/Sign'}>Sign Up</NavLink>
+  <NavLink className={'btn btn-primary font-bold playfair text-lg text-white'} to={'/Login'}>Login</NavLink>
   </div>
         </div>
         </div>

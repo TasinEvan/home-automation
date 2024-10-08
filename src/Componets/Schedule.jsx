@@ -24,7 +24,7 @@ import {
 import DeleteIcon from '@mui/icons-material/Delete';
 
 
-const API_BASE_URL = 'http://192.168.188.238';
+const API_BASE_URL = 'http://192.168.20.238';
 
 function Schedules() {
   const [schedules, setSchedules] = useState([]);
@@ -166,7 +166,7 @@ function Schedules() {
       </Snackbar>
 
       <div>
-      <TableContainer component={Paper} className="mt-6">
+      <TableContainer component={Paper} className="mt-6 bg-blue-50">
         <Table sx={{ minWidth: 650 }} aria-label="schedule table">
           <TableHead>
             <TableRow>
